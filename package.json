@@ -1,0 +1,38 @@
+{
+  "name": "test_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "analyser-frequency-average": "^1.0.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "express": "github:visionmedia/express",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-extract-audio": "^1.0.2",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-audiowaveform": "^1.0.8",
+    "get-video-duration": "^4.1.0",
+    "googleapis": "^108.0.0",
+    "js-ffmpeg": "^0.0.36",
+    "lamejs": "^1.2.1",
+    "logger": "^0.0.1",
+    "node-audio-peaks": "^4.0.2",
+    "node-png": "^0.4.3",
+    "node-vad": "^1.1.4",
+    "nodemon": "^2.0.19",
+    "pcm": "^1.0.3",
+    "qs": "^6.11.0",
+    "speaker": "^0.5.4",
+    "speech-recorder": "^2.1.0",
+    "waveform-node": "^0.3.1",
+    "ws": "^8.12.1"
+  }
+}
