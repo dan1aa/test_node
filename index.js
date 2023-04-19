@@ -7,6 +7,10 @@ app.use(cors());
 
 app.use('/', require('./api'));
 
+app.get('/', (req, res) => {
+    res.send('hello')
+})
+
 app.listen(process.env.PORT || 4000, function(){
     console.log('Ready to Go!');
 });
