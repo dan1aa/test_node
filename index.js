@@ -7,8 +7,9 @@ app.use(cors());
 
 app.use('/', require('./api'));
 
+
 app.get('/', (req, res) => {
-    res.send(process.env.KEY)
+    res.send('Transcription')
 })
 
 app.listen(process.env.PORT || 4000, function(){
