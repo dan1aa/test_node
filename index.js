@@ -8,7 +8,7 @@ app.use(cors());
 app.use('/', require('./api'));
 
 app.get('/', (req, res) => {
-    res.send('hello')
+    res.send(process.env.TEST)
 })
 
 app.listen(process.env.PORT || 4000, function(){
