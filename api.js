@@ -1,12 +1,13 @@
 const express = require("express");
 const multer = require("multer");
 const { Configuration, OpenAIApi } = require("openai");
+require('dotenv').config()
 
 const router = express.Router();
 const upload = multer();
 
 const configuration = new Configuration({
-    apiKey: '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',
+    apiKey: process.env.KEY,
 });
 
 async function transcribe(buffer) {
